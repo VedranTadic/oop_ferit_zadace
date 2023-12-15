@@ -72,7 +72,7 @@ public class Season
         seasonOutput.AppendLine("Report:");
         seasonOutput.AppendLine("=======================================================================================================================");
         seasonOutput.AppendLine($"TotalViewers: {GetTotalViewers()}");
-        seasonOutput.AppendLine($"Total duration: {GetTotalDuration().ToString(@"hh\:mm\:ss", CultureInfo.InvariantCulture)}");
+        seasonOutput.AppendLine($"Total duration: {GetTotalDuration()}");
         seasonOutput.AppendLine("=======================================================================================================================");
         
         return seasonOutput.ToString();
